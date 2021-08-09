@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+  width: 100%;
+}
+
+.markdown-wrapper {
+  max-width: var(--screen-lg-min);
+}

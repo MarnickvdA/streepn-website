@@ -1,0 +1,31 @@
+{
+  "app-name": "Streepn",
+  "header": {
+    "about": "",
+    "features": "",
+    "blog": "",
+    "contact": ""
+  },
+  "landing": {
+    "hero": {
+      "header": "Streepn helps you track",
+      "subheader": "Take control with our all-in-one mobile app with transactions, products, stock, settlements and more.",
+    },
+    "how-it-works": {
+      "title": "How it works",
+      "description": "...",
+      "transactions": {
+        "title": "",
+        "description": ""
+      },
+      "stock-management": {
+        "title": "",
+        "description": ""
+      },
+      "settlements": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+}

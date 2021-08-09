@@ -1,0 +1,17 @@
+.card {
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e9eaf0;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 rgba(8, 15, 52, 0.04);
+
+  &.default {
+    padding: 60px 40px;
+  }
+
+  h2 {
+
+  }
+}

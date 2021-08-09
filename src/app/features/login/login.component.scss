@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 5%) 0px 3px 15px 0px;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 40px 50px;
+  position: relative;
+}

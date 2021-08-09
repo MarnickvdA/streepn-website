@@ -1,0 +1,31 @@
+{
+  "app-name": "Streepn",
+  "header": {
+    "about": "",
+    "features": "",
+    "blog": "",
+    "contact": ""
+  },
+  "landing": {
+    "hero": {
+      "header": "",
+      "subheader": ""
+    },
+    "how-it-works": {
+      "title": "",
+      "description": "",
+      "transactions": {
+        "title": "",
+        "description": ""
+      },
+      "stock-management": {
+        "title": "",
+        "description": ""
+      },
+      "settlements": {
+        "title": "",
+        "description": ""
+      }
+    }
+  }
+}

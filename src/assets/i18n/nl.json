@@ -1,0 +1,31 @@
+{
+  "app-name": "Streepn",
+  "header": {
+    "about": "Over",
+    "features": "Features",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "landing": {
+    "hero": {
+      "header": "Administratie tool voor jouw studentenhuis",
+      "subheader": "Neem de controle over met onze all-in-one mobiele app voor transacties, producten, voorraad, verrekeningen en meer."
+    },
+    "how-it-works": {
+      "title": "Hoe het werkt",
+      "description": "Streepn is een dienst voor studentenhuizen waarmee de gehele administratie van jouw studentenhuis kan regelen in een mobiele app.",
+      "transactions": {
+        "title": "Consumpties strepen",
+        "description": "Elke keer als je een biertje of wijntje uit de gedeelde koelkast haalt, kun je het in de Streepn app bijhouden. Zo kun je streepverlies verminderen wat kosten bespaart!"
+      },
+      "stock-management": {
+        "title": "Voorraad beheren",
+        "description": "Je kunt voorraad toevoegen in de Streepn app die gelijk gesynchroniseerd wordt met de consumpties die je streept. Zo weet je altijd wanneer het tijd is om wat nieuwe voorraad in te slaan!"
+      },
+      "settlements": {
+        "title": "Kosten verrekenen",
+        "description": "Op het gewenste moment kun je gemaakte kosten in de app verrekenen onder huisgenoten. Streepn zal uitrekenen hoeveel iedereen bij elkaar in het krijt staat en hier een duidelijk overzicht van geven."
+      }
+    }
+  }
+}

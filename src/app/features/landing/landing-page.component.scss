@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.security {
+  display: flex;
+  padding: 128px 0;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  align-items: center;
+
+  .content-wrapper {
+    padding: 60px;
+    width: 100%;
+    max-width: var(--screen-xl-min);
+    display: flex;
+
+    .image-wrapper {
+      width: 35%;
+    }
+
+    .text-container {
+      width: 65%;
+      padding: 0 32px;
+    }
+  }
+}

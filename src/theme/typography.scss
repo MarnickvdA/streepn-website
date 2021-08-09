@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 600 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--color-neutral-600);
+  font-size: 16px;
+  line-height: 1.75em;
+  letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: var(--color-neutral-800);
+  font-weight: 800;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 68px;
+  line-height: 1.118em;
+}
+
+h2 {
+  margin-bottom: 14px;
+  font-size: 34px;
+  line-height: 1.353em;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 1.44em;
+}
+
+h4 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+h5 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.333em;
+}
+
+h6 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.375em;
+}
+
+p {
+  margin-bottom: 0;
+
+  &.small {
+    font-size: 15px;
+    line-height: 1.733em;
+    letter-spacing: 0.01em;
+  }
+
+  &.large {
+    font-size: 22px;
+    line-height: 1.636em;
+    letter-spacing: 0;
+  }
+}
+
+a {
+  -webkit-transition: color 350ms ease;
+  transition: color 350ms ease;
+  color: var(--color-primary);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--color-neutral-800);
+  }
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-neutral-800);
+  font-weight: 500;
+}
+
+strong {
+  color: var(--color-neutral-800);
+  font-weight: 700;
+}
+
+blockquote {
+  margin-bottom: 10px;
+  padding: 63px 106px 63px 100px;
+  border-left: 8px solid var(--color-primary);
+  border-radius: 6px;
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
+  font-size: 20px;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+figure {
+  margin: 0 0 10px;
+}
+
+figcaption {
+  margin-top: 5px;
+  text-align: center
+}

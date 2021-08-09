@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "0b861c8c-828a-4879-a870-ef262580e7ee"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,13 +30,18 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/favicons",
+              "src/assets",
+              "src/.well-known",
+              "src/.htaccess",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/marked/lib/marked.js"
+          ]
           },
           "configurations": {
             "production": {

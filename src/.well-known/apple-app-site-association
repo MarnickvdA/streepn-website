@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "9VTZX2ZVF3.nl.strype.streepn" ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/group-invite/*",
+            "comment": "Matches any URL whose path starts with /group-invite/"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [ "9VTZX2ZVF3.nl.strype.streepn" ]
+  }
+}

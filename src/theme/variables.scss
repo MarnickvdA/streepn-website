@@ -1,0 +1,62 @@
+:root {
+  --color-primary: #41B489;
+  --color-primary-rgb: 65, 180, 137;
+  --color-primary-contrast: #ffffff;
+  --color-primary-contrast-rgb: 0, 0, 0;
+  --color-primary-shade: #399e79;
+  --color-primary-tint: #54bc95;
+
+  /** secondary **/
+  --color-secondary: #41B4A6;
+  --color-secondary-rgb: 65, 180, 166;
+  --color-secondary-contrast: #000000;
+  --color-secondary-contrast-rgb: 0, 0, 0;
+  --color-secondary-shade: #399e92;
+  --color-secondary-tint: #54bcaf;
+
+  /** tertiary **/
+  --color-tertiary: #41A6B4;
+  --color-tertiary-rgb: 65, 166, 180;
+  --color-tertiary-contrast: #000000;
+  --color-tertiary-contrast-rgb: 0, 0, 0;
+  --color-tertiary-shade: #39929e;
+  --color-tertiary-tint: #54afbc;
+
+  /** success **/
+  --color-success: #2dd36f;
+  --color-success-rgb: 45, 211, 111;
+  --color-success-contrast: #ffffff;
+  --color-success-contrast-rgb: 255, 255, 255;
+  --color-success-shade: #28ba62;
+  --color-success-tint: #42d77d;
+
+  /** warning **/
+  --color-warning: #ffc409;
+  --color-warning-rgb: 255, 196, 9;
+  --color-warning-contrast: #000000;
+  --color-warning-contrast-rgb: 0, 0, 0;
+  --color-warning-shade: #e0ac08;
+  --color-warning-tint: #ffca22;
+
+  /** danger **/
+  --color-danger: #eb445a;
+  --color-danger-rgb: 235, 68, 90;
+  --color-danger-contrast: #ffffff;
+  --color-danger-contrast-rgb: 255, 255, 255;
+  --color-danger-shade: #cf3c4f;
+  --color-danger-tint: #ed576b;
+
+  --color-neutral-800: #14192b;
+  --color-neutral-700: #4b5166;
+  --color-neutral-600: #888b94;
+  --color-neutral-500: #b8bac3;
+  --color-neutral-400: #d8dae3;
+  --color-neutral-300: #e9eaf0;
+  --color-neutral-200: #f7f8fa;
+  --color-neutral-100: #ffffff;
+
+  --screen-sm-min: 576px; // Small tablets and large smartphones (landscape view)
+  --screen-md-min: 768px; // Small tablets (portrait view)
+  --screen-lg-min: 992px; // Tablets and small desktops
+  --screen-xl-min: 1200px; // Large tablets and desktops
+}

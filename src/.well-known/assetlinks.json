@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.strype.streepn",
+      "sha256_cert_fingerprints": [
+        "E2:C1:29:09:13:44:2F:B6:A2:33:03:71:CC:D8:C1:CF:5A:BB:AF:81:44:82:BB:78:40:97:40:BA:E6:EB:81:C0"
+      ]
+    }
+  }
+]

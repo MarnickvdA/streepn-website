@@ -1,0 +1,147 @@
+:host {
+  padding: 128px 0;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  max-width: var(--screen-xl-min);
+  display: flex;
+  flex-direction: column;
+}
+
+#typography-guide {
+  h1, h2, h3, h4, h5, h6, p, a, blockquote, ul {
+    margin-bottom: 20px;
+  }
+}
+
+#color-guide {
+  h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+  }
+
+  div:not(#container) {
+    width: 128px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    color: white;
+  }
+
+  #primary {
+    background-color: var(--color-primary);
+  }
+
+  #secondary {
+    background-color: var(--color-secondary);
+  }
+
+  #tertiary {
+    background-color: var(--color-tertiary);
+  }
+
+  #success {
+    background-color: var(--color-success);
+  }
+
+  #warning {
+    background-color: var(--color-warning);
+  }
+
+  #danger {
+    background-color: var(--color-danger);
+  }
+
+  #neutral-800 {
+    background-color: var(--color-neutral-800);
+  }
+
+  #neutral-700 {
+    background-color: var(--color-neutral-700);
+  }
+
+  #neutral-600 {
+    background-color: var(--color-neutral-600);
+  }
+
+  #neutral-500 {
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-500);
+  }
+
+  #neutral-400 {
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-400);
+  }
+
+  #neutral-300 {
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-300);
+  }
+
+  #neutral-200 {
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-200);
+  }
+
+  #neutral-100 {
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-100);
+  }
+}
+
+#button-guide {
+  h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: start;
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+  }
+}
+
+#cards-guide {
+  h2#header {
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: start;
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+  }
+}
+
+#forms-guide {
+  h2 {
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+
+  div span {
+    padding-left: 12px;
+  }
+
+  h6 {
+    margin-top: 15px;
+  }
+}
