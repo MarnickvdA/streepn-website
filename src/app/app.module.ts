@@ -10,12 +10,14 @@ import {TranslationModule} from "./translation.module";
 import {FooterComponent} from "@core/components/footer/footer.component";
 import {MarkdownModule} from "ngx-markdown";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {HouseInviteComponent} from "@features/house-invite/house-invite.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HouseInviteComponent
   ],
   imports: [
     BrowserModule,

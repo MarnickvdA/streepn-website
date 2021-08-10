@@ -1,10 +1,13 @@
 {
   "app-name": "Streepn",
-  "header": {
-    "about": "Over",
+  "company-name": "Streepn B.V.",
+  "navigation": {
+    "about": "Over Ons",
     "features": "Features",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "legal": "Algemene Voorwaarden",
+    "privacy": "Privacyverklaring"
   },
   "landing": {
     "hero": {
@@ -13,7 +16,7 @@
     },
     "how-it-works": {
       "title": "Hoe het werkt",
-      "description": "Streepn is een dienst voor studentenhuizen waarmee de gehele administratie van jouw studentenhuis kan regelen in een mobiele app.",
+      "description": "Streepn is een dienst voor studentenhuizen waarmee de gehele administratie van jouw studentenhuis geregeld kan worden in de mobiele app.",
       "transactions": {
         "title": "Consumpties strepen",
         "description": "Elke keer als je een biertje of wijntje uit de gedeelde koelkast haalt, kun je het in de Streepn app bijhouden. Zo kun je streepverlies verminderen wat kosten bespaart!"

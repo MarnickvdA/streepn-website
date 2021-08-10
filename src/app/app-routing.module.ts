@@ -1,10 +1,15 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import {HouseInviteComponent} from "@features/house-invite/house-invite.component";
 
 const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./features/landing/landing.module').then(m => m.LandingModule)
+  },
+  {
+    path: 'house-invite/:code',
+    component: HouseInviteComponent
   },
   {
     path: 'about',

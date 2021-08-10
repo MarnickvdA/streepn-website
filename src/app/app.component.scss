@@ -1,5 +1,16 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
 router-outlet {
   display: flex;
   width: 100%;
   height: 100%;
+}
+
+app-footer {
+  justify-content: flex-end;
+  margin-top: auto;
+  flex-grow: 1;
 }

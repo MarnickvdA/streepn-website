@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <div class="invite-card">
+    <img class="logo" src="assets/icons/logo_bg_round.svg"/>
+    <div class="download-buttons">
+      <a href="" class="margin-right" rel="noopener">
+        <img src="assets/icons/app_store.svg" alt="App Store"/>
+      </a>
+      <a href="" rel="noopener">
+        <img src="assets/icons/google_play.svg" alt="Play Store"/>
+      </a>
+    </div>
+    <h3>Huis deelnemen</h3>
+    <div class="copy-container" [ngClass]="hasCopiedCode ? 'copied' : ''">
+      <span class="code">{{code}}</span>
+      <div class="divider"></div>
+      <div class="copy-button" (click)="copyCode()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Clipboard</title><path
+          d="M336 64h32a48 48 0 0148 48v320a48 48 0 01-48 48H144a48 48 0 01-48-48V112a48 48 0 0148-48h32" fill="none"
+          stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><rect x="176" y="32" width="160" height="64"
+                                                                                 rx="26.13" ry="26.13" fill="none"
+                                                                                 stroke="currentColor"
+                                                                                 stroke-linejoin="round"
+                                                                                 stroke-width="32"/></svg>
+      </div>
+    </div>
+    <p class="small">Kopieër de huiscode voor de Streepn app</p>
+  </div>
+</div>

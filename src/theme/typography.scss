@@ -127,10 +127,12 @@ img {
 }
 
 label {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 4px;
   display: block;
-  margin-bottom: 8px;
-  color: var(--color-neutral-800);
-  font-weight: 500;
+  color: var(--color-neutral-600);
+  font-weight: 400;
 }
 
 strong {

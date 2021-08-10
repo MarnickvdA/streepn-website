@@ -1,10 +1,13 @@
 {
   "app-name": "Streepn",
-  "header": {
+  "company-name": "Streepn B.V.",
+  "navigation": {
     "about": "",
     "features": "",
     "blog": "",
-    "contact": ""
+    "contact": "",
+    "legal": "",
+    "privacy": ""
   },
   "landing": {
     "hero": {

@@ -1,0 +1,149 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: var(--screen-lg-min);
+  margin-top: 256px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 96px;
+  max-height: 600px;
+  background: linear-gradient(to right, var(--color-primary), rgba(var(--color-primary-rgb), .75));
+  box-shadow: 0 4px 12px rgb(0 0 0 / 11%);
+
+  h2 {
+    width: var(--screen-md-min);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 128px;
+  }
+
+  .hero-images {
+    display: block;
+    width: 868px;
+    height: 560px;
+    position: relative;
+    animation: fadeIn ease 500ms;
+
+    img {
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgb(0 0 0 / 11%);
+      object-fit: cover;
+    }
+
+    .top-image {
+      position: absolute;
+      width: 340px;
+      height: 488px;
+      left: 0;
+      bottom: -230px;
+      z-index: 2;
+    }
+
+    .bottom-image {
+      position: absolute;
+      width: 650px;
+      height: 500px;
+      right: 0px;
+      bottom: -330px;
+      z-index: 1;
+    }
+  }
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 64px 0;
+
+  .team-members {
+    max-width: var(--screen-sm-min);
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    column-gap: 64px;
+    justify-items: center;
+  }
+
+  .member-wrapper {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 256px;
+    width: 100%;
+  }
+
+  .member-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 6%);
+  }
+
+  .member-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    text-align: center;
+
+    .member-name {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      color: var(--color-neutral-700);
+    }
+
+    .member-title {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 300;
+      color: var(--color-neutral-600);
+      margin-bottom: 12px;
+    }
+
+    span.socials {
+      align-self: center;
+
+      a {
+        margin-right: 8px;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+

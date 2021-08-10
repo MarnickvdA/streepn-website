@@ -3,8 +3,10 @@
 @import '~sanitize.css/forms.css';
 @import '~sanitize.css/typography.css';
 
-@import "theme/variables";
-@import "theme/typography";
-@import "theme/inputs";
-@import "theme/buttons";
-@import "theme/cards";
+body {
+  min-height: 100vh;
+
+  app-root {
+    min-height: 100vh;
+  }
+}

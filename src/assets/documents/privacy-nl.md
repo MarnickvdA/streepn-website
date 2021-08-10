@@ -147,9 +147,9 @@ Als je vindt dat wij je niet op de juiste manier helpen, dan heb je het recht om
 <br/>
 
 ##### Contactgegevens
-Streepn B.V.
-Noorderhagen 64
-7511EM Enschede
-E-mailadres: support@streepn.nl
+Streepn B.V.  
+Noorderhagen 64  
+7511EM Enschede  
+E-mailadres: support@streepn.nl  
 
 KvK nummer: XXXXXXXX

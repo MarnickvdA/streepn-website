@@ -6,7 +6,7 @@ Afwijkingen van of aanvullingen op deze algemene voorwaarden zijn alleen bindend
 <br/>
 
 #### Artikel 1. Gebruik van de dienst
-1. Op Streepn kunt u Mobiele app voor de administratie in studentenhuizen.
+1. Op Streepn kunt u op een mobiele applicatie voor de administratie in studentenhuizen voeren.
 2. Om Streepn te kunnen gebruiken, moet u zich eerst registreren. Nadat uw registratie is afgerond, kunt u direct op uw account inloggen en de dienst gebruiken.
 3. U dient de toegang tot uw account middels een gebruikersnaam en wachtwoord af te schermen voor onbevoegden. In het bijzonder het wachtwoord dient u strikt geheim te houden. Streepn B.V. mag er vanuit gaan dat alles dat gebeurt vanaf uw account na aanmelding met uw gebruikersnaam en wachtwoord, onder uw leiding en toezicht gebeurt. U bent dus aansprakelijk voor al deze handelingen, tenzij u bij Streepn B.V. heeft gemeld dat een ander uw wachtwoord kent.
 4. Met Streepn worden uw persoonsgegevens verwerkt. U geeft toestemming voor alle vormen van verwerking die vallen binnen de scope van de dienst. Raadpleeg de privacyverklaring van Streepn B.V. voor meer informatie.
