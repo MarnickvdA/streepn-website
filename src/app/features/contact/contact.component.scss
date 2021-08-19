@@ -1,5 +1,8 @@
+@import "src/theme/mixins/breakpoints";
+
 :host {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -7,6 +10,8 @@
   position: absolute;
   opacity: .75;
   z-index: -1;
+  min-height: 40vh;
+  object-fit: cover;
 }
 
 .contact-wrapper {
@@ -14,13 +19,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   min-height: 600px;
-  margin: 64px 0;
+  padding: 64px;
 }
 
 .contact-card {
-  width: var(--screen-md-min);
+  max-width: var(--screen-md-min);
   background-color: var(--color-neutral-100);
   padding: 32px;
   border-radius: 16px;
@@ -73,9 +77,7 @@ form {
   width: 100%;
 
   margin-top: 16px;
-  input {
 
-  }
 }
 
 .checkbox-row {
@@ -88,5 +90,53 @@ form {
     min-width: 21px;
     min-height: 21px;
     margin-right: 8px;
+  }
+}
+
+p.success {
+  color: var(--color-primary);
+}
+
+a.button {
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  border: 3px solid var(--color-primary-tint);
+  border-top: 3px solid var(--color-neutral-100);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@include sm {
+
+  h2 {
+    font-size: 24px;
+  }
+
+  form {
+    padding: 16px 0;
+  }
+
+  .contact-wrapper {
+    padding: 32px;
+  }
+
+  .double-input-row {
+    flex-direction: column;
+
+    .margin-right {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
   }
 }

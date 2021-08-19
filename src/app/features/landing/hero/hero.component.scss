@@ -1,3 +1,5 @@
+@import "src/theme/mixins/breakpoints";
+
 :host {
   display: flex;
   background: rgba(var(--color-primary-rgb), .05);
@@ -44,6 +46,33 @@
       width: auto;
     }
   }
+
+  @include sm {
+    h1 {
+      font-size: 32px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    .download-buttons {
+      flex-direction: column;
+
+      a.margin-right {
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  @include md {
+    text-align: center;
+
+    .download-buttons {
+      justify-content: center;
+    }
+  }
 }
 
 .image-container {
@@ -62,8 +91,15 @@
     animation: move-up;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
+
+    height: 100%;
+    width: auto;
+    object-fit: cover;
   }
 
+  @include md {
+    display: none;
+  }
 }
 
 @keyframes move-up {

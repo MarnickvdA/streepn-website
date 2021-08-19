@@ -87,6 +87,12 @@ h6 {
 p {
   margin-bottom: 0;
 
+  &.tiny {
+    font-size: 12px;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+  }
+
   &.small {
     font-size: 15px;
     line-height: 1.733em;

@@ -1,3 +1,5 @@
+@import "src/theme/mixins/breakpoints";
+
 :host {
   display: flex;
   flex-direction: column;
@@ -20,7 +22,7 @@
 .about-wrapper {
   display: flex;
   flex-direction: column;
-  width: var(--screen-lg-min);
+  max-width: var(--screen-lg-min);
   margin-top: 256px;
 }
 
@@ -36,7 +38,7 @@
   box-shadow: 0 4px 12px rgb(0 0 0 / 11%);
 
   h2 {
-    width: var(--screen-md-min);
+    max-width: var(--screen-md-min);
     text-align: center;
     font-size: 24px;
     font-weight: 300;
@@ -147,3 +149,37 @@
   }
 }
 
+@include md {
+  .hero {
+    height: 300px;
+    padding: 32px;
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    .hero-images {
+      display: none;
+      width: 0;
+      height: 0;
+
+      img {
+        display: none;
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+
+  .about-wrapper {
+    margin-top: 0;
+  }
+
+  .team {
+    .team-members {
+      grid-template-columns: repeat(1, minmax(100px, 1fr));
+      grid-row-gap: 32px;
+    }
+  }
+}

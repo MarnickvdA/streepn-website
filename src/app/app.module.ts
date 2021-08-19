@@ -11,6 +11,7 @@ import {FooterComponent} from "@core/components/footer/footer.component";
 import {MarkdownModule} from "ngx-markdown";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {HouseInviteComponent} from "@features/house-invite/house-invite.component";
+import {RECAPTCHA_V3_SITE_KEY, RecaptchaFormsModule, RecaptchaV3Module} from 'ng-recaptcha';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,10 @@ import {HouseInviteComponent} from "@features/house-invite/house-invite.componen
     TranslationModule.forRoot(),
     HttpClientModule,
     MarkdownModule.forRoot({loader: HttpClient}),
+    RecaptchaV3Module,
+    RecaptchaFormsModule
   ],
-  providers: [],
+  providers: [{ provide: RECAPTCHA_V3_SITE_KEY, useValue: "6LeLBAgcAAAAAOPUTclV9ucLO_NRH0AFERMStLYt" }],
   bootstrap: [AppComponent]
 })
 export class AppModule {

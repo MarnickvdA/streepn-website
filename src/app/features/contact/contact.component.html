@@ -1,32 +1,43 @@
-<img class="waves" src="assets/icons/waves.svg" alt="Waves"/>
+<img class="waves" loading="lazy" src="assets/icons/waves.svg" alt="Waves"/>
 
 <div class="contact-wrapper">
   <div class="contact-card">
-    <h2>Neem contact op</h2>
-    <p class="small">Ons team staat klaar om jouw vragen te beantwoorden.</p>
+    <h2>{{'contact.header' | translate}}</h2>
+    <p class="small">{{'contact.subheader' | translate}}</p>
 
-    <form>
+    <form [formGroup]="contactForm">
       <div class="double-input-row">
         <div class="input-container margin-right">
-          <label for="name">Naam</label>
-          <input id="name" class="input"/>
+          <label for="name">{{'contact.name' | translate}}</label>
+          <input [formControlName]="'name'" id="name" class="input"/>
         </div>
         <div class="input-container">
-          <label for="email">Email</label>
-          <input id="email" class="input"/>
+          <label for="email">{{'contact.email' | translate}}</label>
+          <input [formControlName]="'email'" id="email" class="input"/>
         </div>
       </div>
       <div class="message-row">
         <div>
-          <label for="message">Vertel ons!</label>
-          <textarea id="message" class="text-area"></textarea>
+          <label for="message">{{'contact.message' | translate}}</label>
+          <textarea [formControlName]="'message'" id="message" class="text-area"></textarea>
         </div>
       </div>
       <div class="checkbox-row">
-        <input id="checkbox" class="checkbox" type="checkbox"/>
-        <label for="checkbox">Ik ga ermee akkoord dat Streepn de gegevens die ik hierboven heb ingevuld mag gebruiken om contact met mij op te nemen.</label>
+        <input [formControlName]="'terms'" id="checkbox" class="checkbox" type="checkbox"/>
+        <label for="checkbox">{{'contact.accept-terms' | translate}}</label>
       </div>
-      <a class="button primary small" type="submit">Versturen</a>
+      <a class="button primary small" (click)="sendMessage()" *ngIf="!isSubmitting">{{'contact.submit' | translate}}</a>
+      <a class="button primary small" *ngIf="isSubmitting">
+        <div class="loader"></div>
+      </a>
     </form>
+    <p class="success" *ngIf="sentMessage">
+      {{'contact.message-sent' | translate}}
+    </p>
+    <p class="tiny">
+      This site is protected by reCAPTCHA and the Google
+      <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+      <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+    </p>
   </div>
 </div>

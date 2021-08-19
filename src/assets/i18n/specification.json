@@ -30,5 +30,45 @@
         "description": ""
       }
     }
+  },
+  "contact": {
+    "header": "",
+    "subheader": "",
+    "name": "",
+    "email": "",
+    "message": "",
+    "message-placeholder": "",
+    "accept-terms": "",
+    "submit": "",
+    "message-sent": ""
+  },
+  "about": {
+    "mission": "",
+    "our-team": "",
+    "team-description": ""
+  },
+  "features": {
+    "header": "",
+    "download-now": "",
+    "feature1": {
+      "header":"",
+      "description": ""
+    },
+    "feature2": {
+      "header":"",
+      "description": ""
+    },
+    "feature3": {
+      "header":"",
+      "description": ""
+    },
+    "utility1": {
+      "header": "",
+      "content": ""
+    },
+    "utility2": {
+      "header": "",
+      "content": ""
+    }
   }
 }

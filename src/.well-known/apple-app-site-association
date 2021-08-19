@@ -10,8 +10,8 @@
             "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
           },
           {
-            "/": "/group-invite/*",
-            "comment": "Matches any URL whose path starts with /group-invite/"
+            "/": "/house-invite/*",
+            "comment": "Matches any URL whose path starts with /house-invite/"
           }
         ]
       }

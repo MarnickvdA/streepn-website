@@ -30,5 +30,16 @@
         "description": ""
       }
     }
+  },
+  "contact": {
+    "header": "",
+    "subheader": "",
+    "name": "",
+    "email": "",
+    "message": "",
+    "message-placeholder": "",
+    "accept-terms": "",
+    "submit": "",
+    "message-sent": ""
   }
 }

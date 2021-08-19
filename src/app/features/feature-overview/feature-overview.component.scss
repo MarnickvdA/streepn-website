@@ -1,3 +1,5 @@
+@import "src/theme/mixins/breakpoints";
+
 :host {
   display: flex;
   flex-direction: column;
@@ -12,7 +14,7 @@
   justify-content: center;
   max-width: var(--screen-xl-min);
   width: 100%;
-  padding: 64px 0;
+  padding: 64px 32px;
 
   .features-header {
     text-align: center;
@@ -27,9 +29,10 @@
   padding-bottom: 32px;
 
   .feature-item {
-    img.header-img {
-      border-radius: 16px;
-      width: 400px;
+    .img-wrapper {
+      .header-img {
+        border-radius: 16px;
+      }
     }
 
     .text-wrapper {
@@ -58,6 +61,22 @@
       }
     }
   }
+
+  @include md {
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    grid-row-gap: 64px;
+
+    .feature-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .img-wrapper, .text-wrapper {
+        max-width: 400px;
+      }
+    }
+  }
 }
 
 .large-feature {
@@ -65,16 +84,57 @@
   display: flex;
   flex-direction: row;
 
-  img {
+  .img-wrapper {
     width: 50%;
-    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &.pl {
+      padding-left: 32px;
+    }
+
+    &.pr {
+      padding-right: 32px;
+    }
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
   }
 
   .feature-content {
-    padding: 32px 64px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  @include sm {
+    flex-direction: column;
+    text-align: center;
+
+    .img-wrapper, .feature-content {
+      width: 100%;
+    }
+
+    .img-wrapper {
+      padding-bottom: 16px;
+
+      &.pl {
+        padding-left: 0;
+      }
+
+      &.pr {
+        padding-right: 0;
+      }
+    }
+
+    &.inverted {
+      flex-direction: column-reverse;
+    }
   }
 }
 
@@ -106,6 +166,16 @@
     img {
       height: 3.5rem;
       width: auto;
+    }
+  }
+
+  @include sm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+      margin-right: 0;
     }
   }
 }

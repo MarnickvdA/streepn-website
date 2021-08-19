@@ -16,7 +16,7 @@
     },
     "how-it-works": {
       "title": "Hoe het werkt",
-      "description": "Streepn is een dienst voor studentenhuizen waarmee de gehele administratie van jouw studentenhuis geregeld kan worden in de mobiele app.",
+      "description": "Streepn is een app voor studentenhuizen waarmee de gehele administratie van jouw studenthuis vanuit je broekzak geregeld kan worden!",
       "transactions": {
         "title": "Consumpties strepen",
         "description": "Elke keer als je een biertje of wijntje uit de gedeelde koelkast haalt, kun je het in de Streepn app bijhouden. Zo kun je streepverlies verminderen wat kosten bespaart!"
@@ -29,6 +29,45 @@
         "title": "Kosten verrekenen",
         "description": "Op het gewenste moment kun je gemaakte kosten in de app verrekenen onder huisgenoten. Streepn zal uitrekenen hoeveel iedereen bij elkaar in het krijt staat en hier een duidelijk overzicht van geven."
       }
+    }
+  },
+  "contact": {
+    "header": "Neem contact op",
+    "subheader": "Ons team staat klaar om jouw vragen te beantwoorden.",
+    "name": "Naam",
+    "email": "Email",
+    "message": "Vertel ons!",
+    "accept-terms": "Ik ga ermee akkoord dat Streepn de gegevens die ik hierboven heb ingevuld mag gebruiken om contact met mij op te nemen.",
+    "submit": "Versturen",
+    "message-sent": "Het bericht is succesvol verstuurd, we zullen spoedig contact met je opnemen!"
+  },
+  "about": {
+    "mission": "Onze missie is het ontzorgen van studenten door de administratieve taken in een studentenhuis te digitaliseren, waardoor de student kan focusen op student zijn.",
+    "our-team": "Ons team",
+    "team-description": "Voor studenten, door studenten"
+  },
+  "features": {
+    "header": "Features",
+    "download-now": "Download nu",
+    "feature1": {
+      "header":"Voorraadbeheer",
+      "description": "Houd je huidige voorraad van je product bij. Gestreepte producten worden automatisch geüpdatet in de voorraad!"
+    },
+    "feature2": {
+      "header":"Transacties",
+      "description": "Houd je huidige voorraad van je product bij. Gestreepte producten worden automatisch geüpdatet in de voorraad!"
+    },
+    "feature3": {
+      "header":"Verrekeningen",
+      "description": "Verdeel de kosten die je gemaakt hebt met je huisgenoten zodat je niet voor onvoorziene kosten komt te staan!"
+    },
+    "utility1": {
+      "header": "Overal te gebruiken",
+      "content": "De oude manier van strepen had veel nadelen. Soms vergeet je te strepen of is de hele streeplijst kwijt of beschadigd. De consequenties zijn soms best groot omdat je de kosten niet meer eerlijk kan verdelen. Met Streepn kun je altijd bij je streeplijst! Of je nou op de wc zit of bij de koelkast staat als jij internetverbinding hebt kun je strepen! Je hebt geen risico op een beschadigde streeplijst sinds deze veilig in de cloud is opgeslagen."
+    },
+    "utility2": {
+      "header": "Altijd up-to-date",
+      "content": "Streepn maakt gebruik van de laatste technologische innovaties om jouw de best mogelijke ervaring te geven in de app. Alle onderdelen van de app zijn met elkaar geïntegreerd, waardoor jij altijd de meest up-to-date versie van jouw administratie hebt. Streep je een product tijdens een transactie, dan ziet iedereen gelijk de geüpdatete voorraadstand en de nieuwe saldos."
     }
   }
 }

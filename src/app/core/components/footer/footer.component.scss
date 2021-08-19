@@ -1,3 +1,5 @@
+@import "../../../../theme/mixins/breakpoints";
+
 :host {
   display: flex;
   flex-direction: column;
@@ -11,11 +13,16 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  max-width: var(--screen-lg-min);
   padding-bottom: 16px;
+  max-width: var(--screen-lg-min);
 
   p {
     font-size: 12px;
+  }
+
+  @include lg {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -24,10 +31,15 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: var(--screen-lg-min);
   padding-bottom: 32px;
   padding-top: 64px;
   border-bottom: 1px solid rgba(50,50,50, .2);
+  max-width: var(--screen-lg-min);
+
+  @include lg {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
   .logo {
     width: 48px;
@@ -54,6 +66,7 @@
 
     color: var(--color-neutral-700);
     transition: color 300ms cubic-bezier(0.56,0.02,0.32,1);
+
     &:hover {
       color: var(--color-primary);
     }
@@ -74,6 +87,20 @@
       &:hover {
         color: var(--color-primary);
       }
+    }
+  }
+
+  @include md {
+    .links, .socials {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .links a {
+      margin-right: 0;
+      padding-top: 8px;
     }
   }
 }

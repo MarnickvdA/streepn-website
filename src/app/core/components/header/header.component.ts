@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, HostListener, NgZone, OnInit} from '@angular/core';
+import {NavigationStart, Router} from "@angular/router";
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  barHidden = true;
+  menuVisible = false;
 
-  ngOnInit(): void {
+  constructor(private zone: NgZone,
+              private router: Router) {
   }
 
+  ngOnInit(): void {
+    this.onResize();
+
+    this.router.events.subscribe((val) => {
+      if (val instanceof NavigationStart) {
+        this.menuVisible = false;
+      }
+    });
+  }
+
+  openMenu($event: MouseEvent) {
+    this.menuVisible = !this.menuVisible;
+    $event.stopPropagation();
+    $event.preventDefault();
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.zone.run(() => {
+      this.barHidden = window.innerWidth > 768;
+    })
+  }
 }

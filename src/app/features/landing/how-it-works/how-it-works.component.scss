@@ -1,6 +1,8 @@
+@import "src/theme/mixins/breakpoints";
+
 :host {
   display: flex;
-  padding: 128px 0;
+  padding: 128px 32px;
   flex-direction: column;
   min-height: 600px;
   width: 100%;
@@ -22,6 +24,9 @@
 
   .image-wrapper {
     width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .text-container {
@@ -30,6 +35,32 @@
     justify-content: center;
     width: 65%;
     padding: 0 32px;
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    .image-wrapper, .text-container {
+      width: 100%;
+    }
+
+    .image-wrapper {
+      padding-bottom: 16px;
+      img {
+        max-width: 60%;
+      }
+    }
+
+    .text-container {
+      padding: 0;
+      text-align: center;
+    }
+
+    padding: 60px 0;
+
+    &.inverted {
+      flex-direction: column-reverse;
+    }
   }
 }
 
