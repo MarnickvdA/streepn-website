@@ -40,9 +40,17 @@
       display: flex;
       flex-direction: row;
 
-      .icon img {
+      .icon {
         min-width: 42px;
-        border-radius: 4px;
+        min-height: 42px;
+        max-width: 42px;
+        max-height: 42px;
+        padding: 5px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
       }
 
       .text-container {
@@ -102,6 +110,7 @@
     img {
       width: 100%;
       object-fit: contain;
+      border-radius: 32px;
     }
   }
 
