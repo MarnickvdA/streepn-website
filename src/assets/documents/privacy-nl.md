@@ -152,4 +152,4 @@ Noorderhagen 64
 7511EM Enschede  
 E-mailadres: support@streepn.nl  
 
-KvK nummer: XXXXXXXX
+KvK nummer: 84093420
