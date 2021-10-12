@@ -7,6 +7,15 @@
   width: 100%;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .features-wrapper {
   display: flex;
   flex-direction: column;
@@ -30,6 +39,9 @@
 
   .feature-item {
     .img-wrapper {
+      min-height: 200px;
+      animation: fadeIn ease 500ms;
+
       .header-img {
         border-radius: 16px;
       }
