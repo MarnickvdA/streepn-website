@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": [ "9VTZX2ZVF3.nl.strype.streepn" ],
+        "appIDs": [ "435M8YGRQX.nl.streepn.app" ],
         "components": [
           {
             "#": "no_universal_links",
@@ -12,12 +12,16 @@
           {
             "/": "/house-invite/*",
             "comment": "Matches any URL whose path starts with /house-invite/"
+          },
+          {
+             "/": "/auth/*",
+             "comment": "Matches URL whose path starts with /auth/action"
           }
         ]
       }
     ]
   },
   "webcredentials": {
-    "apps": [ "9VTZX2ZVF3.nl.strype.streepn" ]
+    "apps": [ "435M8YGRQX.nl.streepn.app" ]
   }
 }

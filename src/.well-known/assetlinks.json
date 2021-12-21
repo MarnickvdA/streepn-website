@@ -1,14 +1,12 @@
-[
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "nl.strype.streepn",
-      "sha256_cert_fingerprints": [
-        "E2:C1:29:09:13:44:2F:B6:A2:33:03:71:CC:D8:C1:CF:5A:BB:AF:81:44:82:BB:78:40:97:40:BA:E6:EB:81:C0"
-      ]
-    }
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "nl.streepn.app",
+    "sha256_cert_fingerprints": [
+      "37:1A:3A:20:FC:3F:72:C1:87:E6:C7:BA:06:59:85:FF:40:FF:F5:CE:50:0F:E2:37:17:C6:2B:2A:2F:07:CE:AE"
+    ]
   }
-]
+}

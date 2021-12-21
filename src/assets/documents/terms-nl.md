@@ -85,3 +85,4 @@ Afwijkingen van of aanvullingen op deze algemene voorwaarden zijn alleen bindend
 4. De versie van communicatie of informatie zoals opgeslagen door Streepn B.V. wordt geacht juist te zijn, tenzij u tegenbewijs levert dienaangaande.
 5. Indien een bepaling in deze gebruiksvoorwaarden nietig blijkt te zijn, tast dit niet de geldigheid van de gehele gebruiksvoorwaarden aan. Partijen zullen in dit geval ter vervanging (een) nieuwe bepaling(en) vaststellen, waarmee zoveel als rechtens mogelijk is aan de bedoeling van de oorspronkelijke bepaling gestalte wordt gegeven.
 6. Streepn B.V. is gerechtigd haar rechten en verplichtingen uit de overeenkomst over te dragen aan een derde die Streepn of de betreffende bedrijfsactiviteit van haar overneemt.
+7. Als gebruiker van deze website gaat u ermee akkoord dat het gebruik van geautomatiseerde systemen of software om data aan deze website te onttrekken voor commerciële doeleinden verboden is.
