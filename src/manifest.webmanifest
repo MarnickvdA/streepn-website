@@ -1,7 +1,7 @@
 {
   "name": "streepn-website",
   "short_name": "streepn-website",
-  "theme_color": "#41B489",
+  "theme_color": "#fafafa",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",

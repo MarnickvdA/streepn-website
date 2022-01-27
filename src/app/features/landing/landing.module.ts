@@ -6,6 +6,7 @@ import {LandingPageComponent} from './landing-page.component';
 import {SharedModule} from "@shared/shared.module";
 import {HeroComponent} from './hero/hero.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
     LandingPageComponent,
     HeroComponent,
     HowItWorksComponent,
+    NewsComponent,
   ],
   imports: [
     CommonModule,

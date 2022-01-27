@@ -47,6 +47,7 @@ a {
     img {
       width: 48px;
       height: 48px;
+      margin-right: 16px;
     }
 
     span {
@@ -138,7 +139,7 @@ a {
     .icon .menu,
     .icon .menu::before,
     .icon .menu::after {
-      background: #47B74B;
+      background: var(--color-primary);
     }
   }
 }
